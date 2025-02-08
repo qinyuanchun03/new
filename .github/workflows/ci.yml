@@ -2,8 +2,8 @@ name: ci
 on:
   push:
     branches:
-      - master 
-      - main
+      - master  # 只在 master 分支推送时触发工作流
+  workflow_dispatch:  # 允许手动运行工作流
 permissions:
   contents: write
 jobs:
@@ -11,6 +11,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: List files
+        run: ls -la  # 列出当前目录的文件
+
+      - name: Generate package.json
+        run: |
+          echo '{
+            "name": "your-project-name",
+            "version": "1.0.0",
+            "description": "Your project description",
+            "main": "index.js",
+            "scripts": {
+              "build": "pageforge build",
+              "start": "node index.js"
+            },
+            "dependencies": {},
+            "devDependencies": {}
+          }' > package.json
 
       - name: Use Node.js 18.x
         uses: actions/setup-node@v3
@@ -23,14 +41,15 @@ jobs:
           version: 8
         
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install  # 确保在包含 package.json 的目录中运行
 
       - name: Build site
         run: |
-          pageforge build
+          pnpm run build  # 使用 pnpm 运行构建命令
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages  # 指定将内容发布到 gh-pages 分支
