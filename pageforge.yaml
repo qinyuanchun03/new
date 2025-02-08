@@ -1,0 +1,66 @@
+site:
+  title: 江湖笔者文库
+  baseUrl: https://pageforge.devlive.org
+  description: 本文库是一个方便且聚合多内容的文库，完全免费！
+  keywords: 文档,博客,技术分享,生活记录
+  author: 江湖笔者
+  base: /
+  lang: zh-CN
+
+
+nav:
+  - 快速开始:
+      - /guide/index
+      - /guide/start
+      - /guide/site
+  - 文档中心:
+      - /docs/index      
+  - MarkDown教学:    
+      - /md/index
+      - /md/md-start
+      - /md/md-teach1
+      - /md/md-teach2
+      - /md/md-teach3
+  - 推荐模块:
+      - /articles/index
+      - /articles/net-tool
+
+feature:
+  search:
+    enable: true
+  sitemap:
+    enable: true
+  button:
+    enable: true   
+
+  feature.grid.enable: true
+  feature.tooltip.enable: true  
+  feature.tabs.enable: true
+
+repo:
+  owner: qinyuanchun03
+  name: dochugo
+  url: https://github.com/qinyuanchun03/new.git
+
+deploy:
+  github:
+    repository: https://github.com/qinyuanchun03/new.git
+    branch: master
+    buildDir: dist
+    username: qinyuanchun03
+    email: qinyuanchun0304@outlook.com     
+
+
+footer:
+  copyright: © 江湖笔者文库：你的免费攻略
+  social:
+    github:
+      title: GitHub
+      href: https://github.com/devlive-community/pageforge
+
+  links:
+    - 资源项目:
+        - title: PageForge-站点生成
+          href: https://github.com/devlive-community/pageforge
+        - title: TailwindCSS
+          href: https://tailwindcss.com
