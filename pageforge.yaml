@@ -45,7 +45,7 @@ repo:
 deploy:
   github:
     repository: https://github.com/qinyuanchun03/new.git
-    branch: main
+    branch: gh-pages
     buildDir: dist
     username: qinyuanchun03
     email: qinyuanchun0304@outlook.com     
