@@ -1,3 +1,7 @@
+---
+title: 本项目文档
+---
+
 # 江湖笔者的文库项目
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
