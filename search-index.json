@@ -1,0 +1,68 @@
+[
+  {
+    "title": "介绍",
+    "content": "江湖笔者文库是一个综合性的知识分享平台，致力于提供高质量的技术文档、生活随笔和书籍分享。 📚 完整的文档体系 🔍 强大的搜索功能 🏷️ 标签分类系统 📱 响应式设计 技术文档：包含前端、后端等开发教程 生活随笔：分享日常思考和心得 书籍推荐：精选技术和文学书籍",
+    "url": "https://pageforge.devlive.org/guide/index.html",
+    "lang": ""
+  },
+  {
+    "title": "快速开始",
+    "content": "通过导航栏访问 快速开始 文档中心 开发教程 工具推荐 使用搜索功能 按 / 键激活搜索 输入关键词查找内容 通过侧边栏浏览 按分类浏览文档 层级结构清晰明了 支持 Markdown 语法 代码高亮显示 文档目录自动生成 标签系统支持",
+    "url": "https://pageforge.devlive.org/guide/start.html",
+    "lang": ""
+  },
+  {
+    "title": "目录结构",
+    "content": "├── docs/ # 文档中心 │ ├── tech/ # 技术文档 │ ├── life/ # 生活随笔 │ └── books/ # 书籍分享 ├── guide/ # 使用指南 ├── tutorials/ # 开发教程 └── tools/ # 工具推荐 每个 Markdown 文件都需要包含以下 front matter： yaml --- title: 文档标题 author: 作者名称 date: 发布日期 category: 分类 tags: 标签1 标签2 --- 使用清晰的标题层级 添加适当的代码示例 配图说明复杂概念 保持文档结构统一",
+    "url": "https://pageforge.devlive.org/guide/site.html",
+    "lang": ""
+  },
+  {
+    "title": "欢迎来到文库中心",
+    "content": "欢迎来到文档中心！这里是一个用于存放攻略分享、经验整理和随笔文章收录的地方。无论您是想要查找实用的攻略，还是分享自己的经验，亦或是记录生活中的点滴，这里都能满足您的需求。 攻略分享：提供各种实用的攻略，帮助您解决问题。 经验整理：汇集各类经验总结，供大家参考学习。 随笔文章：记录生活中的点滴，分享个人的见解和感悟。 希望您在这里能够找到有用的信息，并且乐于分享自己的知识和经验。让我们一起丰富这个文库，共同进步！ WPS高效办公系列：（即将上线） Markdown入门到精通，案例速成版：请移步Markdown教学",
+    "url": "https://pageforge.devlive.org/docs/index.html",
+    "lang": ""
+  },
+  {
+    "title": "Markdown 知识中心",
+    "content": "Markdown 是由 John Gruber 和 Aaron Swartz 于 2004 年共同创建的一种轻量级标记语言。其设计初衷是为了让人们能够使用易读易写的纯文本格式编写文档，然后转换成有效的 HTML。Markdown 迅速流行起来，成为技术写作、博客、文档编写等领域的首选工具。 简洁易学：Markdown 语法简单直观，几乎不需要学习成本，任何人都可以快速上手。 提高效率：使用 Markdown 可以专注于内容本身，而不必纠结于格式问题，大大提高写作效率。 跨平台支持：Markdown 文件是纯文本格式，可以在任何文本编辑器中打开和编辑，兼容性极强。 广泛应用：Markdown 被广泛应用于各种平台和工具，如 GitHub、GitLab、Jekyll、Hugo 等，方便进行版本控制和协作。 技术文档：许多开源项目的文档都使用 Markdown 编写，如 GitHub 上的 README 文件。 博客写作：许多技术博客和个人博客平台支持 Markdown，如 Hexo、Jekyll 等。 笔记工具：一些笔记应用如 Evernote、Notion、Obsidian 等也支持 Markdown，方便用户记录和整理信息。 电子书：Markdown 还可以用于编写电子书，通过工具转换成各种格式，如 PDF、EPUB 等。 通过学习和使用 Markdown，可以大大提升写作效率和文档质量，是每个技术人员和写作爱好者必备的技能之一。",
+    "url": "https://pageforge.devlive.org/md/index.html",
+    "lang": ""
+  },
+  {
+    "title": "Markdown的前世今生",
+    "content": "2004年，John Gruber与Aaron Swartz合作创造了Markdown。这个轻量级标记语言的诞生，源于一个简单而优雅的想法：让书写者专注于内容本身，而不是繁琐的排版。 最初版本仅支持基础语法 主要在博客圈和技术社区流行 Perl实现的原始转换器发布 GitHub采用Markdown作为默认文档格式 CommonMark规范的制定 多种扩展语法的出现 各大平台广泛支持 衍生出众多变体： GFM (GitHub Flavored Markdown) MDX (Markdown + JSX) R Markdown 简洁性 markdown # 这是标题 这是正文 可读性 源码即文档 语法直观 跨平台 纯文本格式 支持多种导出格式 技术文档 博客写作 项目文档 笔记记录 书籍写作 学习成本低 便于版本控制 导出格式丰富 专注于内容 编辑器：VS Code, Typora 转换工具：Pandoc 托管平台：GitHub, GitLab Markdown的未来发展趋势： 更统一的标准 更丰富的扩展 更智能的编辑器 更广泛的应用 从简单的文本格式到今天无处不在的标记语言，Markdown的发展历程印证了\"大道至简\"的设计哲学。它不仅改变了我们的写作方式，更影响了整个数字内容创作的生态。 --- > \"The overriding design goal for Markdown's formatting syntax is to make it as readable as possible.\" > — John Gruber",
+    "url": "https://pageforge.devlive.org/md/md-start.html",
+    "lang": ""
+  },
+  {
+    "title": "Markdown 基础语法教程",
+    "content": "标题使用 # 符号表示，1-6个 # 表示不同级别的标题： markdown markdown 粗体文本 斜体文本 粗斜体文本 删除线文本 效果展示： 粗体文本 斜体文本 粗斜体文本 删除线文本 使用 > 符号创建引用： markdown > 这是一段引用文本 > 可以有多行 >> 也可以嵌套引用 markdown 第一项 第二项 子项一 子项二 markdown 第一项 第二项 子项一 子项二 markdown 链接文字 江湖笔者文库 markdown !图片替代文本 !示例图片 使用反引号包裹代码：console.log('Hello World') 使用三个反引号包裹，可以指定语言： javascript function sayHello() { console.log('Hello World'); } markdown | 表头1 | 表头2 | 表头3 | |-------|--------|-------| | 内容1 | 内容2 | 内容3 | | 内容4 | 内容5 | 内容6 | 实际效果： | 表头1 | 表头2 | 表头3 | |-------|--------|-------| | 内容1 | 内容2 | 内容3 | | 内容4 | 内容5 | 内容6 | 使用三个或更多的星号、减号、下划线来创建分隔线： markdown --- 保持简洁：使用最基本的语法表达内容 层级清晰：合理使用标题层级 空行分隔：在不同元素之间添加空行 预览检查：经常预览效果确保格式正确 创建一个简单的笔记： markdown 今天学习了 Markdown 的基础语法，包括： 标题的使用 文本的格式化 列表的编写 > Markdown 真的很简单好用！ 点击这里了解更多 --- 现在您已经掌握了 Markdown 的基础语法，快来尝试写作吧！",
+    "url": "https://pageforge.devlive.org/md/md-teach1.html",
+    "lang": ""
+  },
+  {
+    "title": "Markdown 进阶语法教程",
+    "content": "使用 - [ ] 和 - [x] 创建任务列表： markdown [x] 完成基础语法学习 [ ] 学习进阶语法 [ ] 练习 Markdown 写作 效果展示： [x] 完成基础语法学习 [ ] 学习进阶语法 [ ] 练习 Markdown 写作 使用 : 控制表格对齐方式： markdown | 左对齐 | 居中对齐 | 右对齐 | |:------|:--------:|-------:| | 内容 | 内容 | 内容 | 效果展示： | 左对齐 | 居中对齐 | 右对齐 | |:------|:--------:|-------:| | 内容 | 内容 | 内容 | 在文本中添加脚注引用： markdown 这是一段带有脚注的文本[^1]。 [^1]: 这是脚注的内容。 使用 LaTeX 语法编写数学公式： markdown 行内公式：$E = mc^2$ 独立公式： $$ \\sum{i=1}^n ai = 0 $$ 使用 Mermaid 语法绘制流程图： mermaid graph TD; A[开始] --> B{判断} B --> |Yes| C[执行] B --> |No| D[跳过] C --> E[结束] D --> E javascript{1,3-5} // 第1行高亮 let x = 1; // 第3-5行高亮 function hello() { console.log('Hello'); } 支持在引用中使用其他 Markdown 元素： > ### 引用中的标题 > > - 引用中的列表项 > - 包含粗体和斜体 > > javascript > // 引用中的代码块 > console.log('Hello'); > ::: tip 提示 这是一个提示信息 ::: ::: warning 警告 这是一个警告信息 ::: ::: danger 危险 这是一个危险信息 ::: 支持直接使用 HTML 标签： <details> <summary>点击展开</summary> 这是展开后显示的内容。 </details> 使用 <kbd> 标签显示键盘按键： 按下 <kbd>Ctrl</kbd> + <kbd>C</kbd> 复制文本 文档目录生成 markdown [[toc]] 图片尺寸控制 markdown !图片名称 转义字符 markdown \\ 这不是斜体 \\ 创建一个综合性文档： markdown [[toc]] [ ] 下载项目 [x] 安装依赖 bash npm install > [!NOTE] > 请确保已安装 Node.js 详细信息请参考文档[^2] [^2]: 官方文档链接 --- 掌握这些进阶语法，将让您的 Markdown 文档更加专业和生动！",
+    "url": "https://pageforge.devlive.org/md/md-teach2.html",
+    "lang": ""
+  },
+  {
+    "title": "Markdown 高级语法与实战教程",
+    "content": "markdown ::: info 信息 这是一条信息提示 ::: ::: tip 技巧 这是一个技巧说明 ::: ::: warning 注意 这是一个警告提示 ::: ::: danger 危险 这是一个危险警告 ::: markdown ::: details 点击查看详情 这里是折叠的内容 ::: js{2,4-6} function example() { // 这一行会高亮 let x = 1; // 这些行也会高亮 let y = 2; return x + y; } markdown :::: code-group ::: code-group-item yarn bash yarn add vuepress-theme-hope ::: ::: code-group-item npm bash npm i vuepress-theme-hope ::: :::: mermaid sequenceDiagram Alice->>John: Hello John, how are you? John-->>Alice: Great! Alice-)John: See you later! latex $$ \\begin{array}{c} \\nabla \\times \\vec{\\mathbf{B}} -\\, \\frac1c\\, \\frac{\\partial\\vec{\\mathbf{E}}}{\\partial t} & = \\frac{4\\pi}{c}\\vec{\\mathbf{j}} \\nabla \\cdot \\vec{\\mathbf{E}} & = 4 \\pi \\rho \\\\ \\nabla \\times \\vec{\\mathbf{E}}\\, +\\, \\frac1c\\, \\frac{\\partial\\vec{\\mathbf{B}}}{\\partial t} & = \\vec{\\mathbf{0}} \\\\ \\nabla \\cdot \\vec{\\mathbf{B}} & = 0 \\end{array} $$ markdown !版本 !许可证 > 简要描述项目的主要功能和目的 [ ] 特性1 [x] 特性2 [ ] 特性3 ::: code-group bash [npm] npm install your-package bash [yarn] yarn add your-package ::: \\\\\\javascript import { example } from 'your-package'; example.init({ // 配置项 }); \\\\\\ markdown --- title: 文章标题 date: 2024-02-08 categories: 技术 tags: Web JavaScript --- [[toc]] ::: tip 核心要点 要点1 要点2 ::: \\\\\\javascript // 示例代码 \\\\\\ > 关键说明... 实践1 实践2 ::: details 问题1 解答... ::: 参考1 参考2 文档版本控制 使用 git 标签记录版本 在文档中添加版本徽章 自动化工具集成 使用 husky 进行提交前检查 使用 markdownlint 保持格式统一 协作最佳实践 使用统一的模板 保持文档结构一致 定期更新和维护 markdownlint：格式检查 markdown-it：Markdown 解析器 mermaid：图表绘制 katex：数学公式排版 --- 通过本教程的学习，你已经掌握了 Markdown 的高级特性和实战技巧。现在就开始创建专业的技术文档吧！",
+    "url": "https://pageforge.devlive.org/md/md-teach3.html",
+    "lang": ""
+  },
+  {
+    "title": "欢迎来到文库中心",
+    "content": "📚 内容分区说明 状态：即将上线 计划内容：将包含 Word、Excel、PPT 等办公软件的使用技巧和经验分享 目标：帮助用户提高办公效率 状态：已上线 访问方式：通过 /md 路径访问 内容：包含从基础语法到进阶应用的完整教程 特色：采用案例速成的方式，便于快速掌握 状态：正在筹备中 计划涵盖：技术分享、经验总结、随笔文章等多个方向 更新进度：将逐步完善和丰富内容 注：目前除了 Markdown 教程系列已经完整上线外，其他板块都在积极筹备中，我们会根据用户需求优先更新相关内容。",
+    "url": "https://pageforge.devlive.org/articles/index.html",
+    "lang": ""
+  },
+  {
+    "title": "作者强力推荐的网络工具",
+    "content": "!!! danger \"购买注意：请先区分自己的需求和水平，不要乱购买\" 本页面提供了新手懒人思路，进阶玩家思路两个模式，供大家选择 不要忽略自身的基础条件，越过水平购买需要自行补充知识空缺 !!! --- 为了防止大家不懂“机场”，这里会写推荐理由，根据你的需求选择即可 推荐的项目都经过测试和观察，符合大家需要会写入下面的选择表 ::: tabs === \"69云\" 推荐理由1：签到送流量，多国家节点 性价比好，价格便宜，稳定性好 全年活动较多，折扣价购入长达25年服务 !btn购买点这里！ === \"一分机场\" 节点众多，直连解锁chatgpt，YouTube等流媒体 入门低至两块钱，体验每月100G套餐 可选月付和不限时支付，活动折扣不定期开放 !btn购买点击这里！ ::: --- 如果你具备一定的计算机基础，可以考虑购买VPS自建，在这里为大家推荐几家低价的VPS商家： ::: tabs === \"CNFsater VPS\" 价格地址一年12HK/年 性价比好，价格便宜，稳定性好 服务器可搭配WARP实现流媒体解锁，月流量高达1000G，新手入门完全足够 !btn购买点这里！ === \"RackNerd VPS\" 美国知名性价比VPS厂家，年费80左右，解锁流媒体的美国IP 多地机房可选，大陆延迟200ms左右（不保证全国，因为线路一般） 建议活动期间购买，入门级一般10.99刀，流量1000G起步，量大管饱！ !btn购买点击这里！ ::: --- ::: info 此部分可结合YouTube教学视频自行操作 免费域名注册：uskg域名（国内可搜索，部分地区无法正常解析） 推荐教学作者：CM喂饭 超级推荐 更多内容请联系：crazy2403@outlook.com ::: 请到油管查看具体的教学（关键字已经列出）： CF自建ED节点 CF BPB节点 CM喂饭（作者）",
+    "url": "https://pageforge.devlive.org/articles/net-tool.html",
+    "lang": ""
+  }
+]
