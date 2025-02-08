@@ -22,8 +22,9 @@ nav:
       - /md/md-teach2
       - /md/md-teach3
   - 推荐模块:
-      - /articles/index
-      - /articles/net-tool
+    - /articles/index
+    - /articles/net-tool
+    - /articles/ai-tools
 
 feature:
   search:
@@ -34,7 +35,7 @@ feature:
     enable: true   
 
   feature.grid.enable: true
-  feature.tooltip.enable: true  
+  feature.tooltip.enable: true
   feature.tabs.enable: true
 
 repo:
