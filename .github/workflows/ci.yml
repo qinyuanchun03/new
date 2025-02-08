@@ -1,9 +1,9 @@
-name: ci 
+name: ci-部署 
 on:
   push:
     branches:
       - master 
-  workflow_dispatch:  
+      - main
 permissions:
   contents: write
 jobs:
@@ -11,24 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: List files
-        run: ls -la  
-
-      - name: Generate package.json
-        run: |
-          echo '{
-            "name": "your-project-name",
-            "version": "1.0.0",
-            "description": "Your project description",
-            "main": "index.js",
-            "scripts": {
-              "build": "pageforge build",
-              "start": "node index.js"
-            },
-            "dependencies": {},
-            "devDependencies": {}
-          }' > package.json
 
       - name: Use Node.js 18.x
         uses: actions/setup-node@v3
@@ -41,15 +23,14 @@ jobs:
           version: 8
         
       - name: Install dependencies
-        run: pnpm install  
+        run: pnpm install
 
       - name: Build site
         run: |
-          pnpm run build  
+          pageforge build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages  
