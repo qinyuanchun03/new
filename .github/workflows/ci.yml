@@ -45,7 +45,7 @@ jobs:
 
       - name: Build site
         run: |
-          pnpm run build  # 使用 pnpm 运行构建命令
+          pnpm run build  
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
