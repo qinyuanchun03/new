@@ -5,14 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>快速开始 - 江湖笔者文库</title>
+    <title> - 江湖笔者文库</title>
     <!-- 基础 SEO meta 标签 -->
 <meta name="description" content="本文库是一个方便且聚合多内容的文库，完全免费！">
 <meta name="keywords" content="文档,博客,技术分享,生活记录">
 <meta name="author" content="江湖笔者">
 
-    <title>快速开始 - 江湖笔者文库</title>
-    <link rel="icon" href="..//favicon.ico" type="image/x-icon">
+    <title> - 江湖笔者文库</title>
+    <link rel="icon" href=".//favicon.ico" type="image/x-icon">
 
     <!-- 基础样式文件 -->
     <link rel="stylesheet" href="/assets/pageforge.min.css">
@@ -97,7 +97,7 @@
             <a href="/guide/index.html"
                class="inline-flex items-center rounded-lg justify-center px-4 py-3
                                           text-sm font-medium leading-none 
-                                          text-blue-600  bg-blue-50/80  font-medium">
+                                          hover:text-gray-900  hover:bg-gray-50 ">
                 快速开始
             </a>
         </li>
@@ -332,7 +332,7 @@
                 
                     <a href="/guide/index.html"
                        class="block px-3 py-2 rounded-md text-base font-medium
-                              text-blue-600  bg-blue-50/80 ">
+                              text-gray-700  hover:text-gray-900  hover:bg-gray-50 ">
                         快速开始
                     </a>
                 
@@ -498,112 +498,6 @@
 
 
 
-    <div class="text-[0.9375rem] text-gray-600 dark:text-gray-300 overflow-y-auto max-h-[calc(100vh-4rem)] pageforge-scrollbar
-                sm:max-h-screen md:h-auto lg:max-h-[calc(100vh-2rem)]">
-        <div class="mb-6 overflow-x-auto min-w-0">
-            <div class="min-w-fit">
-                
-    <ul class="space-y-1.5">
-        
-            <li class="relative">
-                
-                    <a href="/guide/index.html"
-                       class="group block">
-                        
-                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
-                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
-                               rounded-md transition-all duration-200 ease-in-out">
-
-                            
-
-                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
-                                <span>介绍</span>
-                                
-
-
-                            </span>
-
-                            
-                        </div>
-                        
-                    </a>
-                
-            </li>
-        
-            <li class="relative">
-                
-                    <a href="/guide/start.html"
-                       class="group block">
-                        
-                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
-                                text-blue-600 dark:text-blue-400 bg-blue-50/80 dark:bg-blue-900/20 font-medium
-                               rounded-md transition-all duration-200 ease-in-out">
-
-                            
-
-                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
-                                <span>快速开始</span>
-                                
-
-
-                            </span>
-
-                            
-                        </div>
-                        
-                    </a>
-                
-            </li>
-        
-            <li class="relative">
-                
-                    <a href="/guide/site.html"
-                       class="group block">
-                        
-                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
-                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
-                               rounded-md transition-all duration-200 ease-in-out">
-
-                            
-
-                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
-                                <span>目录结构</span>
-                                
-
-
-                            </span>
-
-                            
-                        </div>
-                        
-                    </a>
-                
-            </li>
-        
-    </ul>
-
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function toggleSubmenu(button) {
-            const submenu = button.nextElementSibling;
-            const arrow = button.querySelector('svg');
-
-            // 切换子菜单的类
-            if (submenu.classList.contains('max-h-0')) {
-                submenu.classList.remove('max-h-0', 'opacity-0');
-                submenu.classList.add('max-h-96', 'opacity-100');
-                arrow.classList.add('rotate-90');
-            } else {
-                submenu.classList.add('max-h-0', 'opacity-0');
-                submenu.classList.remove('max-h-96', 'opacity-100');
-                arrow.classList.remove('rotate-90');
-            }
-        }
-    </script>
-
                         </div>
                     </nav>
                 </aside>
@@ -620,43 +514,123 @@
         <!-- 页面标题部分 -->
         <div class="mb-8">
             
-    <div class="flex items-center justify-between">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl lg:text-3xl">
-            快速开始
-        </h1>
-
-        <div class="flex items-center gap-4">
-            <!-- 字体大小控制按钮 -->
-            
-
-            <!-- 分享按钮 -->
-            
-
-            <!-- 编辑源码 -->
-            
-
-            <!-- 查看源码 -->
-            
-        </div>
-    </div>
-    
-
         </div>
 
         <!-- 主要内容部分 -->
         <div class="prose prose-gray dark:prose-invert max-w-none text-base">
             
+        <div class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-3xl [&_span]:sm:!text-4xl">
+            <div id="jiang-hu-bi-zhe-de-wen-ku-xiang-mu" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">江湖笔者的文库项目</span>
+    </div>
+        </div>
+    <span class="inline-block my-1 mx-auto">
+        <a class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 cursor-pointer"
+           href="https://img.shields.io/badge/license-MIT-blue.svg"
+           target="_self"
+           title="">
+            ![License
+        </a>
+    ](LICENSE)</span>
+        <span class="text-base text-gray-700 leading-7 my-2">
+</span>
+    <span class="inline-block my-1 mx-auto">
+        <a class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 cursor-pointer"
+           href="https://img.shields.io/badge/vuepress-2.x-brightgreen.svg"
+           target="_self"
+           title="">
+            ![VuePress
+        </a>
+    ](https://v2.vuepress.vuejs.org/)</span>
         <div class="space-y-4"></div>
     
-        <div class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-3xl [&_span]:sm:!text-4xl">
-            <div id="kuai-su-kai-shi" class="inline-flex items-center">
-        <span class="text-base text-gray-700 leading-7 my-2">快速开始</span>
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="xiang-mu-jie-shao" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">项目介绍</span>
     </div>
         </div>
     
+        <span class="text-base text-gray-700 leading-7 my-2">这是一个基于 VuePress 2.x 构建的个人知识文库项目，包含技术文档、工具推荐和生活随笔等内容。</span>
+    
+        <div class="space-y-4"></div>
+    
         <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
-            <div id="liu-lan-fang-shi" class="inline-flex items-center">
-        <span class="text-base text-gray-700 leading-7 my-2">浏览方式</span>
+            <div id="zhu-yao-te-xing" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">主要特性</span>
+    </div>
+        </div>
+    
+        <ul class="my-4 pl-4 list-inside list-disc">
+            
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">📚 完整的文档体系</span>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">🔍 全文搜索支持</span>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">📱 移动端适配</span>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">🎨 自定义主题</span>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">🏷️ 文章标签分类</span>
+    </span>
+            </li>
+        </ul>
+    
+        <div class="space-y-4"></div>
+    
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="mu-lu-jie-gou" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">目录结构</span>
+    </div>
+        </div>
+    <div class="!block !w-full !bg-gray-100 !dark:bg-gray-800 !dark:text-gray-300 !text-gray-900 !my-3 !rounded !font-mono !leading-normal !overflow-hidden !relative">
+            
+            
+        <button onclick="window.PageForge.CodeCopy.copy(this)" class="!absolute !right-2 !top-1 !p-1 !rounded !text-gray-400 hover:!text-blue-600 !dark:text-gray-500 hover:!text-blue-300 !transition-colors !duration-200 !z-10">
+            <svg class="copy-icon !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <svg class="check-icon !hidden !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+        </button>
+    
+            <div class="!overflow-x-auto !flex">
+                
+                <div class="!flex-1">
+                    <pre class="!px-3 !py-2.5 !m-0"><code class="">new/
+├── content/           # 内容目录
+│   ├── articles/     # 文章存放
+│   └── guide/        # 指南文档
+├── .vuepress/        # VuePress 配置
+├── public/           # 静态资源
+└── package.json      # 项目配置文件</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="space-y-4"></div>
+    
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="kuai-su-kai-shi" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">快速开始</span>
     </div>
         </div>
     
@@ -665,83 +639,205 @@
             <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
                 <span class="text-gray-600 text-xl select-none">•</span>
                 <span>
-        <span class="text-base text-gray-700 leading-7 my-2">通过导航栏访问</span>
+        <span class="text-base text-gray-700 leading-7 my-2">克隆项目</span>
+    </span>
+            </li>
+        </ol>
+    <div class="!block !w-full !bg-gray-100 !dark:bg-gray-800 !dark:text-gray-300 !text-gray-900 !my-3 !rounded !font-mono !leading-normal !overflow-hidden !relative">
+            <div class="!absolute !right-12 !top-2 !text-sm !text-gray-500 !dark:text-gray-400 !bg-gray-100 !dark:bg-gray-800 !z-10">bash</div>
+            
+        <button onclick="window.PageForge.CodeCopy.copy(this)" class="!absolute !right-2 !top-1 !p-1 !rounded !text-gray-400 hover:!text-blue-600 !dark:text-gray-500 hover:!text-blue-300 !transition-colors !duration-200 !z-10">
+            <svg class="copy-icon !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <svg class="check-icon !hidden !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+        </button>
     
-        <ul class="my-4 pl-4 list-inside list-disc">
+            <div class="!overflow-x-auto !flex">
+                
+                <div class="!flex-1">
+                    <pre class="!px-3 !py-2.5 !m-0"><code class="language-bash"><span class="token function">git</span> clone https://github.com/yourusername/your-repo.git
+<span class="token builtin class-name">cd</span> your-repo</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="space-y-4"></div>
+    
+        <ol class="my-4 pl-4 list-inside list-decimal">
             
             <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
                 <span class="text-gray-600 text-xl select-none">•</span>
                 <span>
-        <span class="text-base text-gray-700 leading-7 my-2">快速开始</span>
+        <span class="text-base text-gray-700 leading-7 my-2">安装依赖</span>
     </span>
             </li>
-            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
-                <span class="text-gray-600 text-xl select-none">•</span>
-                <span>
-        <span class="text-base text-gray-700 leading-7 my-2">文档中心</span>
-    </span>
-            </li>
-            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
-                <span class="text-gray-600 text-xl select-none">•</span>
-                <span>
-        <span class="text-base text-gray-700 leading-7 my-2">开发教程</span>
-    </span>
-            </li>
-            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
-                <span class="text-gray-600 text-xl select-none">•</span>
-                <span>
-        <span class="text-base text-gray-700 leading-7 my-2">工具推荐</span>
-    </span>
-            </li>
-        </ul>
-    </span>
-            </li>
-            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
-                <span class="text-gray-600 text-xl select-none">•</span>
-                <span>
-        <span class="text-base text-gray-700 leading-7 my-2">使用搜索功能</span>
+        </ol>
+    <div class="!block !w-full !bg-gray-100 !dark:bg-gray-800 !dark:text-gray-300 !text-gray-900 !my-3 !rounded !font-mono !leading-normal !overflow-hidden !relative">
+            <div class="!absolute !right-12 !top-2 !text-sm !text-gray-500 !dark:text-gray-400 !bg-gray-100 !dark:bg-gray-800 !z-10">bash</div>
+            
+        <button onclick="window.PageForge.CodeCopy.copy(this)" class="!absolute !right-2 !top-1 !p-1 !rounded !text-gray-400 hover:!text-blue-600 !dark:text-gray-500 hover:!text-blue-300 !transition-colors !duration-200 !z-10">
+            <svg class="copy-icon !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <svg class="check-icon !hidden !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+        </button>
     
-        <ul class="my-4 pl-4 list-inside list-disc">
+            <div class="!overflow-x-auto !flex">
+                
+                <div class="!flex-1">
+                    <pre class="!px-3 !py-2.5 !m-0"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span>
+<span class="token comment"># 或者使用 yarn</span>
+<span class="token function">yarn</span> <span class="token function">install</span></code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="space-y-4"></div>
+    
+        <ol class="my-4 pl-4 list-inside list-decimal">
             
             <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
                 <span class="text-gray-600 text-xl select-none">•</span>
                 <span>
-        <span class="text-base text-gray-700 leading-7 my-2">按 </span>
-    
-        <code class="bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono mx-1 inline-block max-w-full break-all whitespace-pre-wrap overflow-wrap-anywhere">/</code>
-    
-        <span class="text-base text-gray-700 leading-7 my-2"> 键激活搜索</span>
+        <span class="text-base text-gray-700 leading-7 my-2">本地开发</span>
     </span>
             </li>
-            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
-                <span class="text-gray-600 text-xl select-none">•</span>
-                <span>
-        <span class="text-base text-gray-700 leading-7 my-2">输入关键词查找内容</span>
-    </span>
-            </li>
-        </ul>
-    </span>
-            </li>
-            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
-                <span class="text-gray-600 text-xl select-none">•</span>
-                <span>
-        <span class="text-base text-gray-700 leading-7 my-2">通过侧边栏浏览</span>
+        </ol>
+    <div class="!block !w-full !bg-gray-100 !dark:bg-gray-800 !dark:text-gray-300 !text-gray-900 !my-3 !rounded !font-mono !leading-normal !overflow-hidden !relative">
+            <div class="!absolute !right-12 !top-2 !text-sm !text-gray-500 !dark:text-gray-400 !bg-gray-100 !dark:bg-gray-800 !z-10">bash</div>
+            
+        <button onclick="window.PageForge.CodeCopy.copy(this)" class="!absolute !right-2 !top-1 !p-1 !rounded !text-gray-400 hover:!text-blue-600 !dark:text-gray-500 hover:!text-blue-300 !transition-colors !duration-200 !z-10">
+            <svg class="copy-icon !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <svg class="check-icon !hidden !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+        </button>
     
-        <ul class="my-4 pl-4 list-inside list-disc">
+            <div class="!overflow-x-auto !flex">
+                
+                <div class="!flex-1">
+                    <pre class="!px-3 !py-2.5 !m-0"><code class="language-bash"><span class="token function">npm</span> run dev
+<span class="token comment"># 或者使用 yarn</span>
+<span class="token function">yarn</span> dev</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="space-y-4"></div>
+    
+        <ol class="my-4 pl-4 list-inside list-decimal">
             
             <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
                 <span class="text-gray-600 text-xl select-none">•</span>
                 <span>
-        <span class="text-base text-gray-700 leading-7 my-2">按分类浏览文档</span>
+        <span class="text-base text-gray-700 leading-7 my-2">构建项目</span>
+    </span>
+            </li>
+        </ol>
+    <div class="!block !w-full !bg-gray-100 !dark:bg-gray-800 !dark:text-gray-300 !text-gray-900 !my-3 !rounded !font-mono !leading-normal !overflow-hidden !relative">
+            <div class="!absolute !right-12 !top-2 !text-sm !text-gray-500 !dark:text-gray-400 !bg-gray-100 !dark:bg-gray-800 !z-10">bash</div>
+            
+        <button onclick="window.PageForge.CodeCopy.copy(this)" class="!absolute !right-2 !top-1 !p-1 !rounded !text-gray-400 hover:!text-blue-600 !dark:text-gray-500 hover:!text-blue-300 !transition-colors !duration-200 !z-10">
+            <svg class="copy-icon !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <svg class="check-icon !hidden !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+        </button>
+    
+            <div class="!overflow-x-auto !flex">
+                
+                <div class="!flex-1">
+                    <pre class="!px-3 !py-2.5 !m-0"><code class="language-bash"><span class="token function">npm</span> run build
+<span class="token comment"># 或者使用 yarn</span>
+<span class="token function">yarn</span> build</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="space-y-4"></div>
+    
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="wen-dang-bian-xie-gui-fan" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">文档编写规范</span>
+    </div>
+        </div>
+    
+        <span class="text-base text-gray-700 leading-7 my-2">所有文档都需要包含以下 front matter：</span>
+    <div class="!block !w-full !bg-gray-100 !dark:bg-gray-800 !dark:text-gray-300 !text-gray-900 !my-3 !rounded !font-mono !leading-normal !overflow-hidden !relative">
+            <div class="!absolute !right-12 !top-2 !text-sm !text-gray-500 !dark:text-gray-400 !bg-gray-100 !dark:bg-gray-800 !z-10">yaml</div>
+            
+        <button onclick="window.PageForge.CodeCopy.copy(this)" class="!absolute !right-2 !top-1 !p-1 !rounded !text-gray-400 hover:!text-blue-600 !dark:text-gray-500 hover:!text-blue-300 !transition-colors !duration-200 !z-10">
+            <svg class="copy-icon !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <svg class="check-icon !hidden !w-5 !h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+        </button>
+    
+            <div class="!overflow-x-auto !flex">
+                
+                <div class="!flex-1">
+                    <pre class="!px-3 !py-2.5 !m-0"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> 文档标题
+<span class="token key atrule">date</span><span class="token punctuation">:</span> 发布日期
+<span class="token key atrule">category</span><span class="token punctuation">:</span> 分类名称
+<span class="token key atrule">tags</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> 标签1
+    <span class="token punctuation">-</span> 标签2
+<span class="token punctuation">---</span></code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="space-y-4"></div>
+    
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="gong-xian-zhi-nan" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">贡献指南</span>
+    </div>
+        </div>
+    
+        <ol class="my-4 pl-4 list-inside list-decimal">
+            
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">Fork 本仓库</span>
     </span>
             </li>
             <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
                 <span class="text-gray-600 text-xl select-none">•</span>
                 <span>
-        <span class="text-base text-gray-700 leading-7 my-2">层级结构清晰明了</span>
+        <span class="text-base text-gray-700 leading-7 my-2">创建新的分支：</span>
+    
+        <code class="bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono mx-1 inline-block max-w-full break-all whitespace-pre-wrap overflow-wrap-anywhere">git checkout -b feature/your-feature</code>
     </span>
             </li>
-        </ul>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">提交变更：</span>
+    
+        <code class="bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono mx-1 inline-block max-w-full break-all whitespace-pre-wrap overflow-wrap-anywhere">git commit -am 'Add new feature'</code>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">推送到分支：</span>
+    
+        <code class="bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono mx-1 inline-block max-w-full break-all whitespace-pre-wrap overflow-wrap-anywhere">git push origin feature/your-feature</code>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">提交 Pull Request</span>
     </span>
             </li>
         </ol>
@@ -749,8 +845,23 @@
         <div class="space-y-4"></div>
     
         <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
-            <div id="wen-dang-te-xing" class="inline-flex items-center">
-        <span class="text-base text-gray-700 leading-7 my-2">文档特性</span>
+            <div id="xu-ke-zheng" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">许可证</span>
+    </div>
+        </div>
+    <span class="inline-block my-1 mx-auto">本项目采用 
+        <a class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 cursor-pointer"
+           href="LICENSE"
+           target="_self"
+           title="">
+            MIT 许可证
+        </a>
+    </span>
+        <div class="space-y-4"></div>
+    
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="lian-xi-fang-shi" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">联系方式</span>
     </div>
         </div>
     
@@ -759,28 +870,32 @@
             <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
                 <span class="text-gray-600 text-xl select-none">•</span>
                 <span>
-        <span class="text-base text-gray-700 leading-7 my-2">支持 Markdown 语法</span>
+        <span class="text-base text-gray-700 leading-7 my-2">作者：江湖笔者</span>
     </span>
             </li>
             <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
                 <span class="text-gray-600 text-xl select-none">•</span>
                 <span>
-        <span class="text-base text-gray-700 leading-7 my-2">代码高亮显示</span>
+        <span class="text-base text-gray-700 leading-7 my-2">博客：[作者博客地址]</span>
     </span>
             </li>
             <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
                 <span class="text-gray-600 text-xl select-none">•</span>
                 <span>
-        <span class="text-base text-gray-700 leading-7 my-2">文档目录自动生成</span>
-    </span>
-            </li>
-            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
-                <span class="text-gray-600 text-xl select-none">•</span>
-                <span>
-        <span class="text-base text-gray-700 leading-7 my-2">标签系统支持</span>
+        <span class="text-base text-gray-700 leading-7 my-2">GitHub：[GitHub 地址]</span>
     </span>
             </li>
         </ul>
+    
+        <div class="space-y-4"></div>
+    
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="zhi-xie" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">致谢</span>
+    </div>
+        </div>
+    
+        <span class="text-base text-gray-700 leading-7 my-2">感谢所有对本项目做出贡献的开发者们！</span>
     
         </div>
 
@@ -812,6 +927,51 @@
             
                 
                     <div class="pl-0">
+                        <a href="#jiang-hu-bi-zhe-de-wen-ku-xiang-mu"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="jiang-hu-bi-zhe-de-wen-ku-xiang-mu">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">江湖笔者的文库项目</span>
+    
+                        </a>
+                    </div>
+                    
+                        
+                
+                    <div class="pl-4">
+                        <a href="#xiang-mu-jie-shao"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="xiang-mu-jie-shao">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">项目介绍</span>
+    
+                        </a>
+                    </div>
+                    
+                
+                    <div class="pl-4">
+                        <a href="#zhu-yao-te-xing"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="zhu-yao-te-xing">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">主要特性</span>
+    
+                        </a>
+                    </div>
+                    
+                
+                    <div class="pl-4">
+                        <a href="#mu-lu-jie-gou"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="mu-lu-jie-gou">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">目录结构</span>
+    
+                        </a>
+                    </div>
+                    
+                
+                    <div class="pl-4">
                         <a href="#kuai-su-kai-shi"
                            class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
                            data-slug="kuai-su-kai-shi">
@@ -821,25 +981,57 @@
                         </a>
                     </div>
                     
-                        
                 
                     <div class="pl-4">
-                        <a href="#liu-lan-fang-shi"
+                        <a href="#wen-dang-bian-xie-gui-fan"
                            class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
-                           data-slug="liu-lan-fang-shi">
+                           data-slug="wen-dang-bian-xie-gui-fan">
                             
-        <span class="text-base text-gray-700 leading-7 my-2">浏览方式</span>
+        <span class="text-base text-gray-700 leading-7 my-2">文档编写规范</span>
     
                         </a>
                     </div>
                     
                 
                     <div class="pl-4">
-                        <a href="#wen-dang-te-xing"
+                        <a href="#gong-xian-zhi-nan"
                            class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
-                           data-slug="wen-dang-te-xing">
+                           data-slug="gong-xian-zhi-nan">
                             
-        <span class="text-base text-gray-700 leading-7 my-2">文档特性</span>
+        <span class="text-base text-gray-700 leading-7 my-2">贡献指南</span>
+    
+                        </a>
+                    </div>
+                    
+                
+                    <div class="pl-4">
+                        <a href="#xu-ke-zheng"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="xu-ke-zheng">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">许可证</span>
+    
+                        </a>
+                    </div>
+                    
+                
+                    <div class="pl-4">
+                        <a href="#lian-xi-fang-shi"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="lian-xi-fang-shi">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">联系方式</span>
+    
+                        </a>
+                    </div>
+                    
+                
+                    <div class="pl-4">
+                        <a href="#zhi-xie"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="zhi-xie">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">致谢</span>
     
                         </a>
                     </div>
@@ -882,6 +1074,51 @@
         
             
                 <div class="pl-0">
+                    <a href="#jiang-hu-bi-zhe-de-wen-ku-xiang-mu"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="jiang-hu-bi-zhe-de-wen-ku-xiang-mu">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">江湖笔者的文库项目</span>
+    
+                    </a>
+                </div>
+                
+                    
+            
+                <div class="pl-4">
+                    <a href="#xiang-mu-jie-shao"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="xiang-mu-jie-shao">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">项目介绍</span>
+    
+                    </a>
+                </div>
+                
+            
+                <div class="pl-4">
+                    <a href="#zhu-yao-te-xing"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="zhu-yao-te-xing">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">主要特性</span>
+    
+                    </a>
+                </div>
+                
+            
+                <div class="pl-4">
+                    <a href="#mu-lu-jie-gou"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="mu-lu-jie-gou">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">目录结构</span>
+    
+                    </a>
+                </div>
+                
+            
+                <div class="pl-4">
                     <a href="#kuai-su-kai-shi"
                        class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
                        data-slug="kuai-su-kai-shi">
@@ -891,25 +1128,57 @@
                     </a>
                 </div>
                 
-                    
             
                 <div class="pl-4">
-                    <a href="#liu-lan-fang-shi"
+                    <a href="#wen-dang-bian-xie-gui-fan"
                        class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
-                       data-slug="liu-lan-fang-shi">
+                       data-slug="wen-dang-bian-xie-gui-fan">
                         
-        <span class="text-base text-gray-700 leading-7 my-2">浏览方式</span>
+        <span class="text-base text-gray-700 leading-7 my-2">文档编写规范</span>
     
                     </a>
                 </div>
                 
             
                 <div class="pl-4">
-                    <a href="#wen-dang-te-xing"
+                    <a href="#gong-xian-zhi-nan"
                        class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
-                       data-slug="wen-dang-te-xing">
+                       data-slug="gong-xian-zhi-nan">
                         
-        <span class="text-base text-gray-700 leading-7 my-2">文档特性</span>
+        <span class="text-base text-gray-700 leading-7 my-2">贡献指南</span>
+    
+                    </a>
+                </div>
+                
+            
+                <div class="pl-4">
+                    <a href="#xu-ke-zheng"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="xu-ke-zheng">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">许可证</span>
+    
+                    </a>
+                </div>
+                
+            
+                <div class="pl-4">
+                    <a href="#lian-xi-fang-shi"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="lian-xi-fang-shi">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">联系方式</span>
+    
+                    </a>
+                </div>
+                
+            
+                <div class="pl-4">
+                    <a href="#zhi-xie"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="zhi-xie">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">致谢</span>
     
                     </a>
                 </div>
