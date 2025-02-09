@@ -1,82 +1,88 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <title>WiFi QR Code</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WIFI密码在这里，不要迷路</title>
-    <!-- 引入 QRCode.js -->
-    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
     <style>
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-            font-family: 'Microsoft YaHei', sans-serif;
-        }
-        .title {
-            font-size: 2.5em;
-            color: #333;
-            margin-bottom: 20px;
-        }
-        .content {
-            font-size: 1.2em;
-            line-height: 1.6;
-            color: #666;
-            margin-bottom: 30px;
-        }
-        #qrcode {
-            margin: 0 auto;
-            width: 256px;
-            height: 256px;
-        }
-        .qr-container {
-            background: #f5f5f5;
-            padding: 20px;
-            border-radius: 10px;
-            display: inline-block;
-            margin-top: 20px;
-        }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f0f0f0;
+      }
+      .container {
+        max-width: 90%;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #ffffff;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      p {
+        margin: 10px 0;
+      }
+      .wifi-info {
+        font-weight: bold;
+        color: blue;
+      }
+      .password-info {
+        font-weight: bold;
+        color: red;
+      }
+      .announcement {
+        margin: 20px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #e0f7fa;
+        width: 100%;
+        max-width: 600px;
+      }
+      footer {
+        margin-top: 20px;
+        padding: 10px;
+        border-top: 1px solid #ccc;
+        width: 100%;
+        text-align: center;
+        background-color: #fafafa;
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <h1 class="title">WIFI密码</h1>
-        <div class="content">
-            担心记不住密码，不存在的！
-            <br>密码如下：15102696512  请勿泄露给他人</br>
-        </div>
-        <div class="qr-container">
-            <div id="qrcode"></div>
-            <p>扫描即可连接</p>
-        </div>
+  </head>
+  <body>
+    <div class="announcement">
+      <h2>公告栏</h2>
+      <p>本次加入响应式布局，优化界面显示风格。</p>
     </div>
-
+    <div class="container">
+      <h1>WIFI连接请看这里</h1>
+      <img src="qrcode.png" alt="WiFi QR Code">
+      <p class="password-info">密码请看这里：</p>
+      <p>二维码扫描即可连接这个WiFi</p>
+      <p class="wifi-info">WiFi名称：tenda</p>
+      <p class="wifi-info">WiFi密码：15102596512</p>
+    </div>
+    <footer>
+      <p>&copy; 有这个页面，WiFi随叫随到。</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // 创建二维码
-            new QRCode(document.getElementById("qrcode"), {
-                text: "WIFI:T:WPA;S:YourSSID;P:15102696512;;",
-                width: 256,
-                height: 256,
-                colorDark : "#000000",
-                colorLight : "#ffffff",
-                correctLevel : QRCode.CorrectLevel.H
-            });
-        });
-    </script>
-    <style>
-        .highlight {
-            font-weight: bold;
-            color: red;
+      QRCode.toDataURL('WIFI:T:WPA;S:tenda;P:15102596512;;', (err, url) => {
+        if (err) {
+          console.error(err);
+        } else {
+          const img = document.querySelector('img[alt="WiFi QR Code"]');
+          img.src = url;
         }
-    </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var contentDiv = document.querySelector('.content');
-            var password = "15102696512";
-            contentDiv.innerHTML = contentDiv.innerHTML.replace(password, '<span class="highlight">' + password + '</span>');
-        });
+      });
     </script>
-</body>
+  </body>
 </html>
